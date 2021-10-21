@@ -1,5 +1,8 @@
 #pragma once
 #include "ChiliWin.h"
+#include "ChiliException.h"
+#include <optional>
+#include <memory>
 #include <string>
 #include<iostream>
 #include <sstream>
@@ -7,6 +10,14 @@
 class Window
 {
 public:
+	//Exception
+	class Exception : public ChiliException
+	{
+		using ChiliException::ChiliException;
+	public:
+		static std::string TranslateErrorCode(HRESULT hr) noexcept;
+	};
+private:
 	class WindowClass
 	{
 	public:
