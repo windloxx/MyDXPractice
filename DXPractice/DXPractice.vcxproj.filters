@@ -24,6 +24,9 @@
     <ClCompile Include="ChiliException.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChiliWin.h">
@@ -38,6 +41,9 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DXPractice.rc">
@@ -45,7 +51,7 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="C:\Users\Administrator\Desktop\Siwei.ico">
+    <Image Include="C:\Users\Administrator\Desktop\taicon_40x_H6j_icon.ico">
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="C:\Users\Administrator\Desktop\taicon_40x_H6j_icon.ico">
